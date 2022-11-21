@@ -1,3 +1,3 @@
-# ajax-project
+# Portfolio
 
-A dynamic HTML, CSS, and JavaScript solo project.
+A web page showing previous projects and about me
