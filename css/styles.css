@@ -1,9 +1,38 @@
-.img-container {
-  width: 10rem;
-  height: 10rem;
+body {
+  max-width: 900px;
+  margin: auto;
+  background-color: rgb(233, 242, 250);
 }
 
-img {
-  width: 100%;
-  object-fit: fill;
+.logo {
+  height: 5rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 0.8rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav {
+  display: flex;
+  width: 20rem;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Varela Round", sans-serif;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+.hidden {
+  display: hidden;
 }
