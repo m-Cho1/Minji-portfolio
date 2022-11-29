@@ -16,6 +16,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  margin-top: 1rem;
 }
 
 nav {
@@ -80,4 +81,8 @@ img {
 
 i {
   margin-right: 5px;
+}
+
+.home-page-texts {
+  margin: 7rem 0 0 5rem;
 }
