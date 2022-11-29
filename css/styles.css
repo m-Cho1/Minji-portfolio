@@ -1,13 +1,14 @@
 body {
   max-width: 900px;
   margin: auto;
-  background-color: rgb(233, 242, 250);
+  background-color: #eff5f5;
 }
 
 .logo {
   height: 5rem;
   font-family: "Dancing Script", cursive;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  color: #497174;
 }
 
 header {
@@ -15,24 +16,73 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  margin-top: 1rem;
 }
 
 nav {
   display: flex;
   width: 20rem;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #497174;
   font-family: "Varela Round", sans-serif;
 }
 
 a:hover {
   font-weight: bolder;
+  text-decoration: underline;
+  color: #eb6440;
 }
 
 .hidden {
   display: hidden;
+}
+
+.img-container {
+  height: 20rem;
+  width: 25rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.main-page {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-greet {
+  font-family: "Patrick Hand", cursive;
+  margin: 0;
+  color: #497174;
+  font-size: 1.3rem;
+}
+
+.style-name {
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: #497174;
+}
+
+.style-title {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #eb6440;
+  font-family: "Patrick Hand", cursive;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.home-page-texts {
+  margin: 7rem 0 0 5rem;
 }
