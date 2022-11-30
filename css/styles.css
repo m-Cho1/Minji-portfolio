@@ -37,8 +37,10 @@ a:hover {
   color: #eb6440;
 }
 
-.hidden {
-  display: hidden;
+.clicked {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #eb6440;
 }
 
 .img-container {
@@ -85,4 +87,8 @@ i {
 
 .home-page-texts {
   margin: 7rem 0 0 5rem;
+}
+
+.hidden {
+  display: none;
 }

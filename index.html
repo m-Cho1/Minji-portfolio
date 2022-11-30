@@ -18,15 +18,15 @@
     <div class="logo">
       <h1>Minji Cho</h1>
     </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="#">About</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
+    <nav class="navigate">
+      <a href="#" id="home" class="navs">Home</a>
+      <a href="#" id="about-me" class="navs">About</a>
+      <a href="#" id="projects" class="navs">Projects</a>
+      <a href="#" id="contact-me" class="navs">Contact</a>
     </nav>
   </header>
   <main>
-    <div id="home" class="main-page">
+    <div class="main-page" data-view="home">
       <div class="home-page-texts">
         <p class="text-greet">Hi, there! My name is,</p>
         <h1 class="style-name">Minji Cho</h1>
@@ -38,9 +38,9 @@
         <img src="images/IMG-9260.jpg" alt="image of Minji">
       </div>
     </div>
-    <div id="about-me" class="hidden"></div>
-    <div id="projects" class="hidden"></div>
-    <div id="contact-me" class="hidden"></div>
+    <div class="hidden" data-view="about-me">About page</div>
+    <div class="hidden" data-view="projects">Projects page</div>
+    <div class="hidden" data-view="contact-me">contact page</div>
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
